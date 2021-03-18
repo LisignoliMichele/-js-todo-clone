@@ -89,11 +89,7 @@ for (var i = 0; i < CoseDaFare.length; i++){
 
 }
 
-// segna con una riga le cose fatte
-$(".coseDaFare li").click(function(){
-   $(this).addClass("marked")
-}
-);
+
 
 
 // aggiungo un nuovo template
@@ -113,4 +109,9 @@ $("#aggiungi").keydown(function(evento){
          $(this).val("");
       }
    }
+});
+
+// segna con una riga le cose fatte
+$(".coseDaFare").on("click", "li", function(){
+   $(this).addClass("marked")
 });
