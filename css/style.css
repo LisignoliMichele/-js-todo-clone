@@ -3,3 +3,25 @@
    margin: 0;
    padding: 0;
 }
+body{
+   text-align: center;
+}
+h1{
+   font-size: 60px;
+   text-transform: uppercase;
+}
+.template{
+   display: none;
+}
+.marked{
+   text-decoration:line-through red;
+   
+}
+.coseDaFare li{
+   cursor: pointer;
+   font-size: 20px;
+   line-height: 30px;
+}
+#aggiungi{
+   margin-top: 30px;
+}
